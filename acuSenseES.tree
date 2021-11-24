@@ -1,0 +1,1239 @@
+[Details]
+Title=acuSenseES v1.0: A Life Insurance Underwriting Expert System
+TitlePic=Capture.PNG
+Conclusion=
+Creator=Suhail Muhammed for ICT 319
+RelativePaths=1
+Webpath=C:\Users\SM7MDX\Desktop\
+UofD=<b>acuSenseES is a life insurance underwriting expert system used for evaluating a applicant's circumstances to provide an accurate estimate of the premium in accordance with the risk level.</b>
+StartLine=START acuSenseES:
+Ver=3
+
+[Body]
+Name=Tahoma
+Color=#000000
+Size=12
+Style=Normal
+Weight=Normal
+BGColor=#FFFFFF
+
+[H1]
+Name=Tahoma
+Color=#000000
+Size=16
+Style=Normal
+Weight=Bold
+Align=Left
+
+[H2]
+Name=Tahoma
+Color=#004080
+Size=14
+Style=Normal
+Weight=Bold
+
+[H3]
+Name=Tahoma
+Color=#0080FF
+Size=12
+Style=Normal
+Weight=Bold
+
+[H4]
+Name=Tahoma
+Color=#008000
+Size=11
+Style=Normal
+Weight=Bold
+
+[SpanAtt]
+Name=Tahoma
+Color=#000000
+Size=12
+Style=Normal
+Weight=Bold
+
+[SpanCon]
+Name=Tahoma
+Color=#000080
+Size=10
+Style=Italic
+Weight=Bold
+
+[P]
+Name=Tahoma
+Color=#000000
+Size=12
+Style=Normal
+Weight=Normal
+
+[Footer]
+Name=Tahoma
+Color=#000080
+Size=8
+Style=Normal
+Weight=Normal
+
+[Link]
+Name=Tahoma
+Color=#004080
+Size=10
+Style=Normal
+Weight=Bold
+
+[LinkMenu]
+Name=Tahoma
+Color=#000000
+Size=8
+BGColor=#CCCC99
+Style=Normal
+Weight=Bold
+
+[Visited]
+Name=Tahoma
+Color=#800080
+Size=10
+Style=Normal
+Weight=Bold
+
+[VisitedMenu]
+Name=Tahoma
+Color=#000000
+Size=8
+Style=Normal
+Weight=Bold
+
+[Table]
+Name=Tahoma
+Color=#000000
+Size=10
+Style=Normal
+Weight=Normal
+BGColor=#CCCCCC
+Spacing=2
+Padding=2
+
+[TH]
+Name=Tahoma
+Color=#000000
+Size=10
+Style=Normal
+Weight=Normal
+BGColor=#CCCC99
+Align=Left
+
+[TD]
+Name=Tahoma
+Color=#000000
+Size=10
+Style=Normal
+Weight=Normal
+BGColor=#FFFFCC
+
+[TDCol1]
+Name=Tahoma
+Color=#000000
+Size=10
+Style=Normal
+Weight=Normal
+BGColor=#FFFFCC
+
+[TDCol2]
+Name=Tahoma
+Color=#000000
+Size=10
+Style=Normal
+Weight=Normal
+BGColor=#FFFFEE
+
+[TDCol3]
+Name=Tahoma
+Color=#000000
+Size=10
+Style=Normal
+Weight=Normal
+BGColor=#FFFFCC
+
+[TDCol4]
+Name=Tahoma
+Color=#000000
+Size=10
+Style=Normal
+Weight=Normal
+BGColor=#FFFFEE
+
+[TDCol5]
+Name=Tahoma
+Color=#000000
+Size=10
+Style=Normal
+Weight=Normal
+BGColor=#FFFFCC
+
+[TDValue]
+Name=Tahoma
+Color=#000000
+Size=10
+Style=Normal
+Weight=Normal
+BGColor=#CCFFFF
+Align=Left
+
+[TDna]
+Name=Tahoma
+Color=#000000
+Size=10
+Style=Normal
+Weight=Normal
+BGColor=#FFCC99
+Align=Left
+
+[Attributes]
+0=What is the Applicant's specified gender?
+1=Does the Applicant's age fall outside the ranges of 25-35?
+2=Does the Applicant's BMI (Body Mass Index) fall outside the range of 20-25?
+3=What is the Applicant's history with smoking?
+4=Does the Applicant indulge in alchoholic beverages of any sort?
+5=Does the Applicant's medical history contain one or more of the following?
+6=Has the Applicant ever been convicted of a violent crime?
+7=Has the Applicant ever been convicted of a violent crime?
+8=Does the Applicant's medical history contain one or more of the following?
+9=Has the Applicant ever been convicted of a violent crime?
+10=Has the Applicant ever been convicted of a violent crime?
+11=Does the Applicant indulge in alchoholic beverages of any sort?
+12=Does the Applicant's medical history contain one or more of the following?
+13=Has the Applicant ever been convicted of a violent crime?
+14=Has the Applicant ever been convicted of a violent crime?
+15=Does the Applicant's medical history contain one or more of the following?
+16=Has the Applicant ever been convicted of a violent crime?
+17=Has the Applicant ever been convicted of a violent crime?
+18=What is the Applicant's history with smoking?
+19=Does the Applicant indulge in alchoholic beverages of any sort?
+20=Does the Applicant's medical history contain one or more of the following?
+21=Has the Applicant ever been convicted of a violent crime?
+22=Has the Applicant ever been convicted of a violent crime?
+23=Does the Applicant's medical history contain one or more of the following?
+24=Has the Applicant ever been convicted of a violent crime?
+25=Has the Applicant ever been convicted of a violent crime?
+26=Does the Applicant indulge in alchoholic beverages of any sort?
+27=Does the Applicant's medical history contain one or more of the following?
+28=Has the Applicant ever been convicted of a violent crime?
+29=Has the Applicant ever been convicted of a violent crime?
+30=Does the Applicant's medical history contain one or more of the following?
+31=Has the Applicant ever been convicted of a violent crime?
+32=Has the Applicant ever been convicted of a violent crime?
+33=Does the Applicant's BMI (Body Mass Index) fall outside the range of 20-25?
+34=What is the Applicant's history with smoking?
+35=Does the Applicant indulge in alchoholic beverages of any sort?
+36=Does the Applicant's medical history contain one or more of the following?
+37=Has the Applicant ever been convicted of a violent crime?
+38=
+39=Does the Applicant's medical history contain one or more of the following?
+40=
+41=
+42=Does the Applicant indulge in alchoholic beverages of any sort?
+43=Does the Applicant's medical history contain one or more of the following?
+44=Has the Applicant ever been convicted of a violent crime?
+45=
+46=Does the Applicant's medical history contain one or more of the following?
+47=Has the Applicant ever been convicted of a violent crime?
+48=Has the Applicant ever been convicted of a violent crime?
+49=What is the Applicant's history with smoking?
+50=Does the Applicant indulge in alchoholic beverages of any sort?
+51=Does the Applicant's medical history contain one or more of the following?
+52=Has the Applicant ever been convicted of a violent crime?
+53=Has the Applicant ever been convicted of a violent crime?
+54=Does the Applicant's medical history contain one or more of the following?
+55=Has the Applicant ever been convicted of a violent crime?
+56=Has the Applicant ever been convicted of a violent crime?
+57=Does the Applicant indulge in alchoholic beverages of any sort?
+58=Does the Applicant's medical history contain one or more of the following?
+59=Has the Applicant ever been convicted of a violent crime?
+60=Has the Applicant ever been convicted of a violent crime?
+61=Does the Applicant's medical history contain one or more of the following?
+62=Has the Applicant ever been convicted of a violent crime?
+63=Has the Applicant ever been convicted of a violent crime?
+
+[AttNotes]
+0=
+1=
+2=
+3=
+4=
+5=<br><l> > High blood pressure, high cholesterol, abnormal electrocardiogram, chest pain, irregular heart rhythm, palpitations, heart murmur, heart attack, angina,phlebitis, peripheral vascular disease, or any other disease or disorder of the heart or blood vessels?</l> <br> <l> > Cancer, tumor, melanoma, or any other malignant disorder? </l> <br> <l> > A disorder of the brain, spinal cord, or nervous system including chronic headaches, convulsions or loss of consciousness, seizures, tremors, paralysis,fainting, stroke, MS (multiple sclerosis), or TIA (transient ischemic attack)?</l>
+6=
+7=
+8=<br><l> > High blood pressure, high cholesterol, abnormal electrocardiogram, chest pain, irregular heart rhythm, palpitations, heart murmur, heart attack, angina,phlebitis, peripheral vascular disease, or any other disease or disorder of the heart or blood vessels?</l> <br> <l> > Cancer, tumor, melanoma, or any other malignant disorder? </l> <br> <l> > A disorder of the brain, spinal cord, or nervous system including chronic headaches, convulsions or loss of consciousness, seizures, tremors, paralysis,fainting, stroke, MS (multiple sclerosis), or TIA (transient ischemic attack)?</l>
+9=
+10=
+11=
+12=<br><l> > High blood pressure, high cholesterol, abnormal electrocardiogram, chest pain, irregular heart rhythm, palpitations, heart murmur, heart attack, angina,phlebitis, peripheral vascular disease, or any other disease or disorder of the heart or blood vessels?</l> <br> <l> > Cancer, tumor, melanoma, or any other malignant disorder? </l> <br> <l> > A disorder of the brain, spinal cord, or nervous system including chronic headaches, convulsions or loss of consciousness, seizures, tremors, paralysis,fainting, stroke, MS (multiple sclerosis), or TIA (transient ischemic attack)?</l>
+13=
+14=
+15=<br><l> > High blood pressure, high cholesterol, abnormal electrocardiogram, chest pain, irregular heart rhythm, palpitations, heart murmur, heart attack, angina,phlebitis, peripheral vascular disease, or any other disease or disorder of the heart or blood vessels?</l> <br> <l> > Cancer, tumor, melanoma, or any other malignant disorder? </l> <br> <l> > A disorder of the brain, spinal cord, or nervous system including chronic headaches, convulsions or loss of consciousness, seizures, tremors, paralysis,fainting, stroke, MS (multiple sclerosis), or TIA (transient ischemic attack)?</l>
+16=
+17=
+18=
+19=
+20=<br><l> > High blood pressure, high cholesterol, abnormal electrocardiogram, chest pain, irregular heart rhythm, palpitations, heart murmur, heart attack, angina,phlebitis, peripheral vascular disease, or any other disease or disorder of the heart or blood vessels?</l> <br> <l> > Cancer, tumor, melanoma, or any other malignant disorder? </l> <br> <l> > A disorder of the brain, spinal cord, or nervous system including chronic headaches, convulsions or loss of consciousness, seizures, tremors, paralysis,fainting, stroke, MS (multiple sclerosis), or TIA (transient ischemic attack)?</l>
+21=
+22=
+23=<br><l> > High blood pressure, high cholesterol, abnormal electrocardiogram, chest pain, irregular heart rhythm, palpitations, heart murmur, heart attack, angina,phlebitis, peripheral vascular disease, or any other disease or disorder of the heart or blood vessels?</l> <br> <l> > Cancer, tumor, melanoma, or any other malignant disorder? </l> <br> <l> > A disorder of the brain, spinal cord, or nervous system including chronic headaches, convulsions or loss of consciousness, seizures, tremors, paralysis,fainting, stroke, MS (multiple sclerosis), or TIA (transient ischemic attack)?</l>
+24=
+25=
+26=
+27=<br><l> > High blood pressure, high cholesterol, abnormal electrocardiogram, chest pain, irregular heart rhythm, palpitations, heart murmur, heart attack, angina,phlebitis, peripheral vascular disease, or any other disease or disorder of the heart or blood vessels?</l> <br> <l> > Cancer, tumor, melanoma, or any other malignant disorder? </l> <br> <l> > A disorder of the brain, spinal cord, or nervous system including chronic headaches, convulsions or loss of consciousness, seizures, tremors, paralysis,fainting, stroke, MS (multiple sclerosis), or TIA (transient ischemic attack)?</l>
+28=
+29=
+30=<br><l> > High blood pressure, high cholesterol, abnormal electrocardiogram, chest pain, irregular heart rhythm, palpitations, heart murmur, heart attack, angina,phlebitis, peripheral vascular disease, or any other disease or disorder of the heart or blood vessels?</l> <br> <l> > Cancer, tumor, melanoma, or any other malignant disorder? </l> <br> <l> > A disorder of the brain, spinal cord, or nervous system including chronic headaches, convulsions or loss of consciousness, seizures, tremors, paralysis,fainting, stroke, MS (multiple sclerosis), or TIA (transient ischemic attack)?</l>
+31=
+32=
+33=
+34=
+35=
+36=<br><l> > High blood pressure, high cholesterol, abnormal electrocardiogram, chest pain, irregular heart rhythm, palpitations, heart murmur, heart attack, angina,phlebitis, peripheral vascular disease, or any other disease or disorder of the heart or blood vessels?</l> <br> <l> > Cancer, tumor, melanoma, or any other malignant disorder? </l> <br> <l> > A disorder of the brain, spinal cord, or nervous system including chronic headaches, convulsions or loss of consciousness, seizures, tremors, paralysis,fainting, stroke, MS (multiple sclerosis), or TIA (transient ischemic attack)?</l>
+37=
+38=
+39=<br><l> > High blood pressure, high cholesterol, abnormal electrocardiogram, chest pain, irregular heart rhythm, palpitations, heart murmur, heart attack, angina,phlebitis, peripheral vascular disease, or any other disease or disorder of the heart or blood vessels?</l> <br> <l> > Cancer, tumor, melanoma, or any other malignant disorder? </l> <br> <l> > A disorder of the brain, spinal cord, or nervous system including chronic headaches, convulsions or loss of consciousness, seizures, tremors, paralysis,fainting, stroke, MS (multiple sclerosis), or TIA (transient ischemic attack)?</l>
+40=
+41=
+42=
+43=<br><l> > High blood pressure, high cholesterol, abnormal electrocardiogram, chest pain, irregular heart rhythm, palpitations, heart murmur, heart attack, angina,phlebitis, peripheral vascular disease, or any other disease or disorder of the heart or blood vessels?</l> <br> <l> > Cancer, tumor, melanoma, or any other malignant disorder? </l> <br> <l> > A disorder of the brain, spinal cord, or nervous system including chronic headaches, convulsions or loss of consciousness, seizures, tremors, paralysis,fainting, stroke, MS (multiple sclerosis), or TIA (transient ischemic attack)?</l>
+44=
+45=
+46=<br><l> > High blood pressure, high cholesterol, abnormal electrocardiogram, chest pain, irregular heart rhythm, palpitations, heart murmur, heart attack, angina,phlebitis, peripheral vascular disease, or any other disease or disorder of the heart or blood vessels?</l> <br> <l> > Cancer, tumor, melanoma, or any other malignant disorder? </l> <br> <l> > A disorder of the brain, spinal cord, or nervous system including chronic headaches, convulsions or loss of consciousness, seizures, tremors, paralysis,fainting, stroke, MS (multiple sclerosis), or TIA (transient ischemic attack)?</l>
+47=
+48=
+49=
+50=
+51=<br><l> > High blood pressure, high cholesterol, abnormal electrocardiogram, chest pain, irregular heart rhythm, palpitations, heart murmur, heart attack, angina,phlebitis, peripheral vascular disease, or any other disease or disorder of the heart or blood vessels?</l> <br> <l> > Cancer, tumor, melanoma, or any other malignant disorder? </l> <br> <l> > A disorder of the brain, spinal cord, or nervous system including chronic headaches, convulsions or loss of consciousness, seizures, tremors, paralysis,fainting, stroke, MS (multiple sclerosis), or TIA (transient ischemic attack)?</l>
+52=
+53=
+54=<br><l> > High blood pressure, high cholesterol, abnormal electrocardiogram, chest pain, irregular heart rhythm, palpitations, heart murmur, heart attack, angina,phlebitis, peripheral vascular disease, or any other disease or disorder of the heart or blood vessels?</l> <br> <l> > Cancer, tumor, melanoma, or any other malignant disorder? </l> <br> <l> > A disorder of the brain, spinal cord, or nervous system including chronic headaches, convulsions or loss of consciousness, seizures, tremors, paralysis,fainting, stroke, MS (multiple sclerosis), or TIA (transient ischemic attack)?</l>
+55=
+56=
+57=
+58=<br><l> > High blood pressure, high cholesterol, abnormal electrocardiogram, chest pain, irregular heart rhythm, palpitations, heart murmur, heart attack, angina,phlebitis, peripheral vascular disease, or any other disease or disorder of the heart or blood vessels?</l> <br> <l> > Cancer, tumor, melanoma, or any other malignant disorder? </l> <br> <l> > A disorder of the brain, spinal cord, or nervous system including chronic headaches, convulsions or loss of consciousness, seizures, tremors, paralysis,fainting, stroke, MS (multiple sclerosis), or TIA (transient ischemic attack)?</l>
+59=
+60=
+61=<br><l> > High blood pressure, high cholesterol, abnormal electrocardiogram, chest pain, irregular heart rhythm, palpitations, heart murmur, heart attack, angina,phlebitis, peripheral vascular disease, or any other disease or disorder of the heart or blood vessels?</l> <br> <l> > Cancer, tumor, melanoma, or any other malignant disorder? </l> <br> <l> > A disorder of the brain, spinal cord, or nervous system including chronic headaches, convulsions or loss of consciousness, seizures, tremors, paralysis,fainting, stroke, MS (multiple sclerosis), or TIA (transient ischemic attack)?</l>
+62=
+63=
+
+[AttPix]
+0=
+1=
+2=
+3=
+4=
+5=
+6=
+7=
+8=
+9=
+10=
+11=
+12=
+13=
+14=
+15=
+16=
+17=
+18=
+19=
+20=
+21=
+22=
+23=
+24=
+25=
+26=
+27=
+28=
+29=
+30=
+31=
+32=
+33=
+34=
+35=
+36=
+37=
+38=
+39=
+40=
+41=
+42=
+43=
+44=
+45=
+46=
+47=
+48=
+49=
+50=
+51=
+52=
+53=
+54=
+55=
+56=
+57=
+58=
+59=
+60=
+61=Capture.PNG
+62=
+63=
+
+[Values]
+0=Male
+1=Younger than 25 or Older than 35
+2=Below 20 or Above 25 BMI
+3=Moderate to heavy smoker
+4=Moderate to heavy drinker
+5=More than 1 applies
+6=Convicted & charged with felony
+7=No recorded criminal history
+8=None apply
+9=Convicted & charged with felony
+10=No recorded criminal history
+11=Occasional to non-drinker
+12=More than 1 applies
+13=Convicted & charged with felony
+14=No recorded criminal history
+15=None apply
+16=Convicted & charged with felony
+17=No recorded criminal history
+18=Occasional or non-smoker
+19=Moderate to heavy drinker
+20=More than 1 applies
+21=Convicted & charged with felony
+22=No recorded criminal history
+23=None apply
+24=Convicted & charged with felony
+25=No recorded criminal history
+26=Occasional to non-drinker
+27=More than 1 applies
+28=Convicted & charged with felony
+29=No recorded criminal history
+30=None apply
+31=Convicted & charged with felony
+32=No recorded criminal history
+33=Within 20-25 BMI
+34=Moderate to heavy smoker
+35=Moderate to heavy drinker
+36=More than 1 applies
+37=Convicted & charged with felony
+38=No recorded criminal history
+39=None apply
+40=Convicted & charged with felony
+41=No recorded criminal history
+42=Occasional to non-drinker
+43=More than 1 applies
+44=Convicted & charged with felony
+45=No recorded criminal history
+46=None apply
+47=Convicted & charged with felony
+48=No recorded criminal history
+49=Occasional or non-smoker
+50=Moderate to heavy drinker
+51=More than 1 applies
+52=Convicted & charged with felony
+53=No recorded criminal history
+54=None apply
+55=Convicted & charged with felony
+56=No recorded criminal history
+57=Occasional to non-drinker
+58=More than 1 applies
+59=Convicted & charged with felony
+60=No recorded criminal history
+61=None apply
+62=Convicted & charged with felony
+63=No recorded criminal history
+64=Age is within the range 25-35
+65=Below 20 or Above 25 BMI
+66=Moderate to heavy smoker
+67=Moderate to heavy drinker
+68=More than 1 applies
+69=Convicted & charged with felony
+70=No recorded criminal history
+71=None apply
+72=Convicted & charged with felony
+73=No recorded criminal history
+74=Occasional to non-drinker
+75=More than 1 applies
+76=Convicted & charged with felony
+77=No recorded criminal history
+78=None apply
+79=Convicted & charged with felony
+80=No recorded criminal history
+81=Occasional or non-smoker
+82=Moderate to heavy drinker
+83=More than 1 applies
+84=Convicted & charged with felony
+85=No recorded criminal history
+86=None apply
+87=Convicted & charged with felony
+88=No recorded criminal history
+89=Occasional to non-drinker
+90=More than 1 applies
+91=Convicted & charged with felony
+92=No recorded criminal history
+93=None apply
+94=Convicted & charged with felony
+95=No recorded criminal history
+96=Within 20-25 BMI
+97=Moderate to heavy smoker
+98=Moderate to heavy drinker
+99=More than 1 applies
+100=Convicted & charged with felony
+101=No recorded criminal history
+102=None apply
+103=Convicted & charged with felony
+104=No recorded criminal history
+105=Occasional to non-drinker
+106=More than 1 applies
+107=Convicted & charged with felony
+108=No recorded criminal history
+109=None apply
+110=Convicted & charged with felony
+111=No recorded criminal history
+112=Occasional or non-smoker
+113=Moderate to heavy drinker
+114=More than 1 applies
+115=Convicted & charged with felony
+116=No recorded criminal history
+117=None apply
+118=Convicted & charged with felony
+119=No recorded criminal history
+120=Occasional to non-drinker
+121=More than 1 applies
+122=Convicted & charged with felony
+123=No recorded criminal history
+124=None apply
+125=Convicted & charged with felony
+126=No recorded criminal history
+127=Female
+
+[ValNotes]
+0=
+1=
+2=
+3=
+4=
+5=
+6=
+7=
+8=
+9=
+10=
+11=
+12=
+13=
+14=
+15=
+16=
+17=
+18=
+19=
+20=
+21=
+22=
+23=
+24=
+25=
+26=
+27=
+28=
+29=
+30=
+31=
+32=
+33=
+34=
+35=
+36=
+37=
+38=
+39=
+40=
+41=
+42=
+43=
+44=
+45=
+46=
+47=
+48=
+49=
+50=
+51=
+52=
+53=
+54=
+55=
+56=
+57=
+58=
+59=
+60=
+61=
+62=
+63=
+64=
+65=
+66=
+67=
+68=
+69=
+70=
+71=
+72=
+73=
+74=
+75=
+76=
+77=
+78=
+79=
+80=
+81=
+82=
+83=
+84=
+85=
+86=
+87=
+88=
+89=
+90=
+91=
+92=
+93=
+94=
+95=
+96=
+97=
+98=
+99=
+100=
+101=
+102=
+103=
+104=
+105=
+106=
+107=
+108=
+109=
+110=
+111=
+112=
+113=
+114=
+115=
+116=
+117=
+118=
+119=
+120=
+121=
+122=
+123=
+124=
+125=
+126=
+127=
+
+[ValPix]
+0=
+1=
+2=
+3=
+4=
+5=
+6=
+7=
+8=
+9=
+10=
+11=
+12=
+13=
+14=
+15=
+16=
+17=
+18=
+19=
+20=
+21=
+22=
+23=
+24=
+25=
+26=
+27=
+28=
+29=
+30=
+31=
+32=
+33=
+34=
+35=
+36=
+37=
+38=
+39=
+40=
+41=
+42=
+43=
+44=
+45=
+46=
+47=
+48=
+49=
+50=
+51=
+52=
+53=
+54=
+55=
+56=
+57=
+58=
+59=
+60=
+61=
+62=
+63=
+64=
+65=
+66=
+67=
+68=
+69=
+70=
+71=
+72=
+73=
+74=
+75=
+76=
+77=
+78=
+79=
+80=
+81=
+82=
+83=
+84=
+85=
+86=
+87=
+88=
+89=
+90=
+91=
+92=
+93=
+94=
+95=
+96=
+97=
+98=
+99=
+100=
+101=
+102=
+103=
+104=
+105=
+106=
+107=
+108=
+109=
+110=
+111=
+112=
+113=
+114=
+115=
+116=
+117=
+118=
+119=
+120=
+121=
+122=
+123=
+124=
+125=
+126=
+127=
+
+[Conclusions]
+0=DENY APPLICATION
+1=Standard Premium + 90% = $1900
+2=DENY APPLICATION
+3=Standard Premium + 60% = $1600
+4=DENY APPLICATION
+5=Standard Premium + 80% = $1800
+6=DENY APPLICATION
+7=Standard Premium + 50% = $1500
+8=DENY APPLICATION
+9=Standard Premium + 70% = $1700
+10=DENY APPLICATION
+11=Standard Premium + 40% = $1400
+12=DENY APPLICATION
+13=Standard Premium + 60% = $1600
+14=DENY APPLICATION
+15=Standard Premium + 30% = $1300
+16=DENY APPLICATION
+17=Standard Premium + 70% = $1700
+18=DENY APPLICATION
+19=Standard Premium + 50% = $1500
+20=DENY APPLICATION
+21=Standard Premium + 60% = $1600
+22=DENY APPLICATION
+23=Standard Premium + 50% = $1500
+24=DENY APPLICATION
+25=Standard Premium + 40% = $1400
+26=DENY APPLICATION
+27=Standard Premium + 20% = $1200
+28=DENY APPLICATION
+29=Standard Premium + 50% = $1500
+30=DENY APPLICATION
+31=Standard Premium + 10% = $1100
+32=DENY APPLICATION
+33=Standard Premium + 85% = $1850
+34=DENY APPLICATION
+35=Standard Premium + 55% = $1550
+36=DENY APPLICATION
+37=Standard Premium + 75% = $1750
+38=DENY APPLICATION
+39=Standard Premium + 45% = $1450
+40=DENY APPLICATION
+41=Standard Premium + 65% = $1650
+42=DENY APPLICATION
+43=Standard Premium + 35% = $1350
+44=DENY APPLICATION
+45=Standard Premium + 55% = $1550
+46=DENY APPLICATION
+47=Standard Premium + 25% = $1250
+48=DENY APPLICATION
+49=Standard Premium + 65% = $1650
+50=DENY APPLICATION
+51=Standard Premium + 35% = $1350
+52=DENY APPLICATION
+53=Standard Premium + 55% = $1550
+54=DENY APPLICATION
+55=Standard Premium + 25% = $1250
+56=DENY APPLICATION
+57=Standard Premium + 45% = $1450
+58=DENY APPLICATION
+59=Standard Premium + 15% = $1050
+60=DENY APPLICATION
+61=Standard Premium + 35% = $1350
+62=DENY APPLICATION
+63=Standard Premium + 5% = $1050
+64=Expert System for Females have not been implemented yet.
+
+[ConNotes]
+0=Due to the applicant's criminal background, we are not able to process the application as per the business rule/company policy.
+1=
+2=Due to the applicant's criminal background, we are not able to process the application as per the business rule/company policy.
+3=
+4=Due to the applicant's criminal background, we are not able to process the application as per the business rule/company policy.
+5=
+6=Due to the applicant's criminal background, we are not able to process the application as per the business rule/company policy.
+7=
+8=Due to the applicant's criminal background, we are not able to process the application as per the business rule/company policy.
+9=
+10=Due to the applicant's criminal background, we are not able to process the application as per the business rule/company policy.
+11=
+12=Due to the applicant's criminal background, we are not able to process the application as per the business rule/company policy.
+13=
+14=Due to the applicant's criminal background, we are not able to process the application as per the business rule/company policy.
+15=
+16=Due to the applicant's criminal background, we are not able to process the application as per the business rule/company policy.
+17=
+18=Due to the applicant's criminal background, we are not able to process the application as per the business rule/company policy.
+19=
+20=Due to the applicant's criminal background, we are not able to process the application as per the business rule/company policy.
+21=
+22=Due to the applicant's criminal background, we are not able to process the application as per the business rule/company policy.
+23=
+24=Due to the applicant's criminal background, we are not able to process the application as per the business rule/company policy.
+25=
+26=Due to the applicant's criminal background, we are not able to process the application as per the business rule/company policy.
+27=
+28=Due to the applicant's criminal background, we are not able to process the application as per the business rule/company policy.
+29=
+30=Due to the applicant's criminal background, we are not able to process the application as per the business rule/company policy.
+31=
+32=Due to the applicant's criminal background, we are not able to process the application as per the business rule/company policy.
+33=
+34=Due to the applicant's criminal background, we are not able to process the application as per the business rule/company policy.
+35=
+36=Due to the applicant's criminal background, we are not able to process the application as per the business rule/company policy.
+37=
+38=Due to the applicant's criminal background, we are not able to process the application as per the business rule/company policy.
+39=
+40=Due to the applicant's criminal background, we are not able to process the application as per the business rule/company policy.
+41=
+42=Due to the applicant's criminal background, we are not able to process the application as per the business rule/company policy.
+43=
+44=Due to the applicant's criminal background, we are not able to process the application as per the business rule/company policy.
+45=
+46=Due to the applicant's criminal background, we are not able to process the application as per the business rule/company policy.
+47=
+48=Due to the applicant's criminal background, we are not able to process the application as per the business rule/company policy.
+49=
+50=Due to the applicant's criminal background, we are not able to process the application as per the business rule/company policy.
+51=
+52=Due to the applicant's criminal background, we are not able to process the application as per the business rule/company policy.
+53=
+54=Due to the applicant's criminal background, we are not able to process the application as per the business rule/company policy.
+55=
+56=Due to the applicant's criminal background, we are not able to process the application as per the business rule/company policy.
+57=
+58=Due to the applicant's criminal background, we are not able to process the application as per the business rule/company policy.
+59=
+60=Due to the applicant's criminal background, we are not able to process the application as per the business rule/company policy.
+61=
+62=Due to the applicant's criminal background, we are not able to process the application as per the business rule/company policy.
+63=
+64=Due to the differing nature of issues that affect women, the Expert System will require many more variables to accurate provide an estimate for women.To be implemented in v2.0.
+
+[ConPix]
+0=
+1=
+2=
+3=
+4=
+5=
+6=
+7=
+8=
+9=
+10=
+11=
+12=
+13=
+14=
+15=
+16=
+17=
+18=
+19=
+20=
+21=
+22=
+23=
+24=
+25=
+26=
+27=
+28=
+29=
+30=
+31=
+32=
+33=
+34=
+35=
+36=
+37=
+38=
+39=
+40=
+41=
+42=
+43=
+44=
+45=
+46=
+47=
+48=
+49=
+50=
+51=
+52=
+53=
+54=
+55=
+56=
+57=
+58=
+59=
+60=
+61=
+62=
+63=
+64=
+
+[Tree]
+0=1acuSenseES
+1=|2What is the Applicant's specified gender?
+2=||3Male
+3=|||2Does the Applicant's age fall outside the ranges of 25-35?
+4=||||3Younger than 25 or Older than 35
+5=|||||2Does the Applicant's BMI (Body Mass Index) fall outside the range of 20-25?
+6=||||||3Below 20 or Above 25 BMI
+7=|||||||2What is the Applicant's history with smoking?
+8=||||||||3Moderate to heavy smoker
+9=|||||||||2Does the Applicant indulge in alchoholic beverages of any sort?
+10=||||||||||3Moderate to heavy drinker
+11=|||||||||||2Does the Applicant's medical history contain one or more of the following?
+12=||||||||||||3More than 1 applies
+13=|||||||||||||2Has the Applicant ever been convicted of a violent crime?
+14=||||||||||||||3Convicted & charged with felony
+15=|||||||||||||||4DENY APPLICATION
+16=||||||||||||||3No recorded criminal history
+17=|||||||||||||||4Standard Premium + 90% = $1900
+18=||||||||||||3None apply
+19=|||||||||||||2Has the Applicant ever been convicted of a violent crime?
+20=||||||||||||||3Convicted & charged with felony
+21=|||||||||||||||4DENY APPLICATION
+22=||||||||||||||3No recorded criminal history
+23=|||||||||||||||4Standard Premium + 60% = $1600
+24=||||||||||3Occasional to non-drinker
+25=|||||||||||2Does the Applicant's medical history contain one or more of the following?
+26=||||||||||||3More than 1 applies
+27=|||||||||||||2Has the Applicant ever been convicted of a violent crime?
+28=||||||||||||||3Convicted & charged with felony
+29=|||||||||||||||4DENY APPLICATION
+30=||||||||||||||3No recorded criminal history
+31=|||||||||||||||4Standard Premium + 80% = $1800
+32=||||||||||||3None apply
+33=|||||||||||||2Has the Applicant ever been convicted of a violent crime?
+34=||||||||||||||3Convicted & charged with felony
+35=|||||||||||||||4DENY APPLICATION
+36=||||||||||||||3No recorded criminal history
+37=|||||||||||||||4Standard Premium + 50% = $1500
+38=||||||||3Occasional or non-smoker
+39=|||||||||2Does the Applicant indulge in alchoholic beverages of any sort?
+40=||||||||||3Moderate to heavy drinker
+41=|||||||||||2Does the Applicant's medical history contain one or more of the following?
+42=||||||||||||3More than 1 applies
+43=|||||||||||||2Has the Applicant ever been convicted of a violent crime?
+44=||||||||||||||3Convicted & charged with felony
+45=|||||||||||||||4DENY APPLICATION
+46=||||||||||||||3No recorded criminal history
+47=|||||||||||||||4Standard Premium + 70% = $1700
+48=||||||||||||3None apply
+49=|||||||||||||2Has the Applicant ever been convicted of a violent crime?
+50=||||||||||||||3Convicted & charged with felony
+51=|||||||||||||||4DENY APPLICATION
+52=||||||||||||||3No recorded criminal history
+53=|||||||||||||||4Standard Premium + 40% = $1400
+54=||||||||||3Occasional to non-drinker
+55=|||||||||||2Does the Applicant's medical history contain one or more of the following?
+56=||||||||||||3More than 1 applies
+57=|||||||||||||2Has the Applicant ever been convicted of a violent crime?
+58=||||||||||||||3Convicted & charged with felony
+59=|||||||||||||||4DENY APPLICATION
+60=||||||||||||||3No recorded criminal history
+61=|||||||||||||||4Standard Premium + 60% = $1600
+62=||||||||||||3None apply
+63=|||||||||||||2Has the Applicant ever been convicted of a violent crime?
+64=||||||||||||||3Convicted & charged with felony
+65=|||||||||||||||4DENY APPLICATION
+66=||||||||||||||3No recorded criminal history
+67=|||||||||||||||4Standard Premium + 30% = $1300
+68=||||||3Within 20-25 BMI
+69=|||||||2What is the Applicant's history with smoking?
+70=||||||||3Moderate to heavy smoker
+71=|||||||||2Does the Applicant indulge in alchoholic beverages of any sort?
+72=||||||||||3Moderate to heavy drinker
+73=|||||||||||2Does the Applicant's medical history contain one or more of the following?
+74=||||||||||||3More than 1 applies
+75=|||||||||||||2Has the Applicant ever been convicted of a violent crime?
+76=||||||||||||||3Convicted & charged with felony
+77=|||||||||||||||4DENY APPLICATION
+78=||||||||||||||3No recorded criminal history
+79=|||||||||||||||4Standard Premium + 70% = $1700
+80=||||||||||||3None apply
+81=|||||||||||||2Has the Applicant ever been convicted of a violent crime?
+82=||||||||||||||3Convicted & charged with felony
+83=|||||||||||||||4DENY APPLICATION
+84=||||||||||||||3No recorded criminal history
+85=|||||||||||||||4Standard Premium + 50% = $1500
+86=||||||||||3Occasional to non-drinker
+87=|||||||||||2Does the Applicant's medical history contain one or more of the following?
+88=||||||||||||3More than 1 applies
+89=|||||||||||||2Has the Applicant ever been convicted of a violent crime?
+90=||||||||||||||3Convicted & charged with felony
+91=|||||||||||||||4DENY APPLICATION
+92=||||||||||||||3No recorded criminal history
+93=|||||||||||||||4Standard Premium + 60% = $1600
+94=||||||||||||3None apply
+95=|||||||||||||2Has the Applicant ever been convicted of a violent crime?
+96=||||||||||||||3Convicted & charged with felony
+97=|||||||||||||||4DENY APPLICATION
+98=||||||||||||||3No recorded criminal history
+99=|||||||||||||||4Standard Premium + 50% = $1500
+100=||||||||3Occasional or non-smoker
+101=|||||||||2Does the Applicant indulge in alchoholic beverages of any sort?
+102=||||||||||3Moderate to heavy drinker
+103=|||||||||||2Does the Applicant's medical history contain one or more of the following?
+104=||||||||||||3More than 1 applies
+105=|||||||||||||2Has the Applicant ever been convicted of a violent crime?
+106=||||||||||||||3Convicted & charged with felony
+107=|||||||||||||||4DENY APPLICATION
+108=||||||||||||||3No recorded criminal history
+109=|||||||||||||||4Standard Premium + 40% = $1400
+110=||||||||||||3None apply
+111=|||||||||||||2Has the Applicant ever been convicted of a violent crime?
+112=||||||||||||||3Convicted & charged with felony
+113=|||||||||||||||4DENY APPLICATION
+114=||||||||||||||3No recorded criminal history
+115=|||||||||||||||4Standard Premium + 20% = $1200
+116=||||||||||3Occasional to non-drinker
+117=|||||||||||2Does the Applicant's medical history contain one or more of the following?
+118=||||||||||||3More than 1 applies
+119=|||||||||||||2Has the Applicant ever been convicted of a violent crime?
+120=||||||||||||||3Convicted & charged with felony
+121=|||||||||||||||4DENY APPLICATION
+122=||||||||||||||3No recorded criminal history
+123=|||||||||||||||4Standard Premium + 50% = $1500
+124=||||||||||||3None apply
+125=|||||||||||||2Has the Applicant ever been convicted of a violent crime?
+126=||||||||||||||3Convicted & charged with felony
+127=|||||||||||||||4DENY APPLICATION
+128=||||||||||||||3No recorded criminal history
+129=|||||||||||||||4Standard Premium + 10% = $1100
+130=||||3Age is within the range 25-35
+131=|||||2Does the Applicant's BMI (Body Mass Index) fall outside the range of 20-25?
+132=||||||3Below 20 or Above 25 BMI
+133=|||||||2What is the Applicant's history with smoking?
+134=||||||||3Moderate to heavy smoker
+135=|||||||||2Does the Applicant indulge in alchoholic beverages of any sort?
+136=||||||||||3Moderate to heavy drinker
+137=|||||||||||2Does the Applicant's medical history contain one or more of the following?
+138=||||||||||||3More than 1 applies
+139=|||||||||||||2Has the Applicant ever been convicted of a violent crime?
+140=||||||||||||||3Convicted & charged with felony
+141=|||||||||||||||4DENY APPLICATION
+142=||||||||||||||3No recorded criminal history
+143=|||||||||||||||4Standard Premium + 85% = $1850
+144=||||||||||||3None apply
+145=|||||||||||||2Has the Applicant ever been convicted of a violent crime?
+146=||||||||||||||3Convicted & charged with felony
+147=|||||||||||||||4DENY APPLICATION
+148=||||||||||||||3No recorded criminal history
+149=|||||||||||||||4Standard Premium + 55% = $1550
+150=||||||||||3Occasional to non-drinker
+151=|||||||||||2Does the Applicant's medical history contain one or more of the following?
+152=||||||||||||3More than 1 applies
+153=|||||||||||||2Has the Applicant ever been convicted of a violent crime?
+154=||||||||||||||3Convicted & charged with felony
+155=|||||||||||||||4DENY APPLICATION
+156=||||||||||||||3No recorded criminal history
+157=|||||||||||||||4Standard Premium + 75% = $1750
+158=||||||||||||3None apply
+159=|||||||||||||2Has the Applicant ever been convicted of a violent crime?
+160=||||||||||||||3Convicted & charged with felony
+161=|||||||||||||||4DENY APPLICATION
+162=||||||||||||||3No recorded criminal history
+163=|||||||||||||||4Standard Premium + 45% = $1450
+164=||||||||3Occasional or non-smoker
+165=|||||||||2Does the Applicant indulge in alchoholic beverages of any sort?
+166=||||||||||3Moderate to heavy drinker
+167=|||||||||||2Does the Applicant's medical history contain one or more of the following?
+168=||||||||||||3More than 1 applies
+169=|||||||||||||2Has the Applicant ever been convicted of a violent crime?
+170=||||||||||||||3Convicted & charged with felony
+171=|||||||||||||||4DENY APPLICATION
+172=||||||||||||||3No recorded criminal history
+173=|||||||||||||||4Standard Premium + 65% = $1650
+174=||||||||||||3None apply
+175=|||||||||||||2Has the Applicant ever been convicted of a violent crime?
+176=||||||||||||||3Convicted & charged with felony
+177=|||||||||||||||4DENY APPLICATION
+178=||||||||||||||3No recorded criminal history
+179=|||||||||||||||4Standard Premium + 35% = $1350
+180=||||||||||3Occasional to non-drinker
+181=|||||||||||2Does the Applicant's medical history contain one or more of the following?
+182=||||||||||||3More than 1 applies
+183=|||||||||||||2Has the Applicant ever been convicted of a violent crime?
+184=||||||||||||||3Convicted & charged with felony
+185=|||||||||||||||4DENY APPLICATION
+186=||||||||||||||3No recorded criminal history
+187=|||||||||||||||4Standard Premium + 55% = $1550
+188=||||||||||||3None apply
+189=|||||||||||||2Has the Applicant ever been convicted of a violent crime?
+190=||||||||||||||3Convicted & charged with felony
+191=|||||||||||||||4DENY APPLICATION
+192=||||||||||||||3No recorded criminal history
+193=|||||||||||||||4Standard Premium + 25% = $1250
+194=||||||3Within 20-25 BMI
+195=|||||||2What is the Applicant's history with smoking?
+196=||||||||3Moderate to heavy smoker
+197=|||||||||2Does the Applicant indulge in alchoholic beverages of any sort?
+198=||||||||||3Moderate to heavy drinker
+199=|||||||||||2Does the Applicant's medical history contain one or more of the following?
+200=||||||||||||3More than 1 applies
+201=|||||||||||||2Has the Applicant ever been convicted of a violent crime?
+202=||||||||||||||3Convicted & charged with felony
+203=|||||||||||||||4DENY APPLICATION
+204=||||||||||||||3No recorded criminal history
+205=|||||||||||||||4Standard Premium + 65% = $1650
+206=||||||||||||3None apply
+207=|||||||||||||2Has the Applicant ever been convicted of a violent crime?
+208=||||||||||||||3Convicted & charged with felony
+209=|||||||||||||||4DENY APPLICATION
+210=||||||||||||||3No recorded criminal history
+211=|||||||||||||||4Standard Premium + 35% = $1350
+212=||||||||||3Occasional to non-drinker
+213=|||||||||||2Does the Applicant's medical history contain one or more of the following?
+214=||||||||||||3More than 1 applies
+215=|||||||||||||2Has the Applicant ever been convicted of a violent crime?
+216=||||||||||||||3Convicted & charged with felony
+217=|||||||||||||||4DENY APPLICATION
+218=||||||||||||||3No recorded criminal history
+219=|||||||||||||||4Standard Premium + 55% = $1550
+220=||||||||||||3None apply
+221=|||||||||||||2Has the Applicant ever been convicted of a violent crime?
+222=||||||||||||||3Convicted & charged with felony
+223=|||||||||||||||4DENY APPLICATION
+224=||||||||||||||3No recorded criminal history
+225=|||||||||||||||4Standard Premium + 25% = $1250
+226=||||||||3Occasional or non-smoker
+227=|||||||||2Does the Applicant indulge in alchoholic beverages of any sort?
+228=||||||||||3Moderate to heavy drinker
+229=|||||||||||2Does the Applicant's medical history contain one or more of the following?
+230=||||||||||||3More than 1 applies
+231=|||||||||||||2Has the Applicant ever been convicted of a violent crime?
+232=||||||||||||||3Convicted & charged with felony
+233=|||||||||||||||4DENY APPLICATION
+234=||||||||||||||3No recorded criminal history
+235=|||||||||||||||4Standard Premium + 45% = $1450
+236=||||||||||||3None apply
+237=|||||||||||||2Has the Applicant ever been convicted of a violent crime?
+238=||||||||||||||3Convicted & charged with felony
+239=|||||||||||||||4DENY APPLICATION
+240=||||||||||||||3No recorded criminal history
+241=|||||||||||||||4Standard Premium + 15% = $1050
+242=||||||||||3Occasional to non-drinker
+243=|||||||||||2Does the Applicant's medical history contain one or more of the following?
+244=||||||||||||3More than 1 applies
+245=|||||||||||||2Has the Applicant ever been convicted of a violent crime?
+246=||||||||||||||3Convicted & charged with felony
+247=|||||||||||||||4DENY APPLICATION
+248=||||||||||||||3No recorded criminal history
+249=|||||||||||||||4Standard Premium + 35% = $1350
+250=||||||||||||3None apply
+251=|||||||||||||2Has the Applicant ever been convicted of a violent crime?
+252=||||||||||||||3Convicted & charged with felony
+253=|||||||||||||||4DENY APPLICATION
+254=||||||||||||||3No recorded criminal history
+255=|||||||||||||||4Standard Premium + 5% = $1050
+256=||3Female
+257=|||4Expert System for Females have not been implemented yet.
+

@@ -1,0 +1,606 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<title>acuSenseES v1.0: A Life Insurance Underwriting Expert System Expert System</title>
+<link rel="stylesheet" type="text/css" href="styles/web.css" />
+</head>
+<body>
+<table>
+<tr><th colspan="99">Decision Table for acuSenseES v1.0: A Life Insurance Underwriting Expert System Expert System</th></tr>
+<tr><td></td>
+<td class="Col2">What is the Applicant's specified gender?</td>
+<td class="Col2">Does the Applicant's age fall outside the ranges of 25-35?</td>
+<td class="Col2">Does the Applicant's BMI (Body Mass Index) fall outside the range of 20-25?</td>
+<td class="Col2">What is the Applicant's history with smoking?</td>
+<td class="Col2">Does the Applicant indulge in alchoholic beverages of any sort?</td>
+<td class="Col2">Does the Applicant's medical history contain one or more of the following?</td>
+<td class="Col2">Has the Applicant ever been convicted of a violent crime?</td>
+</tr>
+<tr><td class="Col1">DENY APPLICATION</td>
+<td class="Value">Male</td>
+<td class="Value">Younger than 25 or Older than 35</td>
+<td class="Value">Below 20 or Above 25 BMI</td>
+<td class="Value">Moderate to heavy smoker</td>
+<td class="Value">Moderate to heavy drinker</td>
+<td class="Value">More than 1 applies</td>
+<td class="Value">Convicted & charged with felony</td>
+</tr>
+<tr><td class="Col1">Standard Premium + 90% = $1900</td>
+<td class="Value">Male</td>
+<td class="Value">Younger than 25 or Older than 35</td>
+<td class="Value">Below 20 or Above 25 BMI</td>
+<td class="Value">Moderate to heavy smoker</td>
+<td class="Value">Moderate to heavy drinker</td>
+<td class="Value">More than 1 applies</td>
+<td class="Value">No recorded criminal history</td>
+</tr>
+<tr><td class="Col1">DENY APPLICATION</td>
+<td class="Value">Male</td>
+<td class="Value">Younger than 25 or Older than 35</td>
+<td class="Value">Below 20 or Above 25 BMI</td>
+<td class="Value">Moderate to heavy smoker</td>
+<td class="Value">Moderate to heavy drinker</td>
+<td class="Value">None apply</td>
+<td class="Value">Convicted & charged with felony</td>
+</tr>
+<tr><td class="Col1">Standard Premium + 60% = $1600</td>
+<td class="Value">Male</td>
+<td class="Value">Younger than 25 or Older than 35</td>
+<td class="Value">Below 20 or Above 25 BMI</td>
+<td class="Value">Moderate to heavy smoker</td>
+<td class="Value">Moderate to heavy drinker</td>
+<td class="Value">None apply</td>
+<td class="Value">No recorded criminal history</td>
+</tr>
+<tr><td class="Col1">DENY APPLICATION</td>
+<td class="Value">Male</td>
+<td class="Value">Younger than 25 or Older than 35</td>
+<td class="Value">Below 20 or Above 25 BMI</td>
+<td class="Value">Moderate to heavy smoker</td>
+<td class="Value">Occasional to non-drinker</td>
+<td class="Value">More than 1 applies</td>
+<td class="Value">Convicted & charged with felony</td>
+</tr>
+<tr><td class="Col1">Standard Premium + 80% = $1800</td>
+<td class="Value">Male</td>
+<td class="Value">Younger than 25 or Older than 35</td>
+<td class="Value">Below 20 or Above 25 BMI</td>
+<td class="Value">Moderate to heavy smoker</td>
+<td class="Value">Occasional to non-drinker</td>
+<td class="Value">More than 1 applies</td>
+<td class="Value">No recorded criminal history</td>
+</tr>
+<tr><td class="Col1">DENY APPLICATION</td>
+<td class="Value">Male</td>
+<td class="Value">Younger than 25 or Older than 35</td>
+<td class="Value">Below 20 or Above 25 BMI</td>
+<td class="Value">Moderate to heavy smoker</td>
+<td class="Value">Occasional to non-drinker</td>
+<td class="Value">None apply</td>
+<td class="Value">Convicted & charged with felony</td>
+</tr>
+<tr><td class="Col1">Standard Premium + 50% = $1500</td>
+<td class="Value">Male</td>
+<td class="Value">Younger than 25 or Older than 35</td>
+<td class="Value">Below 20 or Above 25 BMI</td>
+<td class="Value">Moderate to heavy smoker</td>
+<td class="Value">Occasional to non-drinker</td>
+<td class="Value">None apply</td>
+<td class="Value">No recorded criminal history</td>
+</tr>
+<tr><td class="Col1">DENY APPLICATION</td>
+<td class="Value">Male</td>
+<td class="Value">Younger than 25 or Older than 35</td>
+<td class="Value">Below 20 or Above 25 BMI</td>
+<td class="Value">Occasional or non-smoker</td>
+<td class="Value">Moderate to heavy drinker</td>
+<td class="Value">More than 1 applies</td>
+<td class="Value">Convicted & charged with felony</td>
+</tr>
+<tr><td class="Col1">Standard Premium + 70% = $1700</td>
+<td class="Value">Male</td>
+<td class="Value">Younger than 25 or Older than 35</td>
+<td class="Value">Below 20 or Above 25 BMI</td>
+<td class="Value">Occasional or non-smoker</td>
+<td class="Value">Moderate to heavy drinker</td>
+<td class="Value">More than 1 applies</td>
+<td class="Value">No recorded criminal history</td>
+</tr>
+<tr><td class="Col1">DENY APPLICATION</td>
+<td class="Value">Male</td>
+<td class="Value">Younger than 25 or Older than 35</td>
+<td class="Value">Below 20 or Above 25 BMI</td>
+<td class="Value">Occasional or non-smoker</td>
+<td class="Value">Moderate to heavy drinker</td>
+<td class="Value">None apply</td>
+<td class="Value">Convicted & charged with felony</td>
+</tr>
+<tr><td class="Col1">Standard Premium + 40% = $1400</td>
+<td class="Value">Male</td>
+<td class="Value">Younger than 25 or Older than 35</td>
+<td class="Value">Below 20 or Above 25 BMI</td>
+<td class="Value">Occasional or non-smoker</td>
+<td class="Value">Moderate to heavy drinker</td>
+<td class="Value">None apply</td>
+<td class="Value">No recorded criminal history</td>
+</tr>
+<tr><td class="Col1">DENY APPLICATION</td>
+<td class="Value">Male</td>
+<td class="Value">Younger than 25 or Older than 35</td>
+<td class="Value">Below 20 or Above 25 BMI</td>
+<td class="Value">Occasional or non-smoker</td>
+<td class="Value">Occasional to non-drinker</td>
+<td class="Value">More than 1 applies</td>
+<td class="Value">Convicted & charged with felony</td>
+</tr>
+<tr><td class="Col1">Standard Premium + 60% = $1600</td>
+<td class="Value">Male</td>
+<td class="Value">Younger than 25 or Older than 35</td>
+<td class="Value">Below 20 or Above 25 BMI</td>
+<td class="Value">Occasional or non-smoker</td>
+<td class="Value">Occasional to non-drinker</td>
+<td class="Value">More than 1 applies</td>
+<td class="Value">No recorded criminal history</td>
+</tr>
+<tr><td class="Col1">DENY APPLICATION</td>
+<td class="Value">Male</td>
+<td class="Value">Younger than 25 or Older than 35</td>
+<td class="Value">Below 20 or Above 25 BMI</td>
+<td class="Value">Occasional or non-smoker</td>
+<td class="Value">Occasional to non-drinker</td>
+<td class="Value">None apply</td>
+<td class="Value">Convicted & charged with felony</td>
+</tr>
+<tr><td class="Col1">Standard Premium + 30% = $1300</td>
+<td class="Value">Male</td>
+<td class="Value">Younger than 25 or Older than 35</td>
+<td class="Value">Below 20 or Above 25 BMI</td>
+<td class="Value">Occasional or non-smoker</td>
+<td class="Value">Occasional to non-drinker</td>
+<td class="Value">None apply</td>
+<td class="Value">No recorded criminal history</td>
+</tr>
+<tr><td class="Col1">DENY APPLICATION</td>
+<td class="Value">Male</td>
+<td class="Value">Younger than 25 or Older than 35</td>
+<td class="Value">Within 20-25 BMI</td>
+<td class="Value">Moderate to heavy smoker</td>
+<td class="Value">Moderate to heavy drinker</td>
+<td class="Value">More than 1 applies</td>
+<td class="Value">Convicted & charged with felony</td>
+</tr>
+<tr><td class="Col1">Standard Premium + 70% = $1700</td>
+<td class="Value">Male</td>
+<td class="Value">Younger than 25 or Older than 35</td>
+<td class="Value">Within 20-25 BMI</td>
+<td class="Value">Moderate to heavy smoker</td>
+<td class="Value">Moderate to heavy drinker</td>
+<td class="Value">More than 1 applies</td>
+<td class="Value">No recorded criminal history</td>
+</tr>
+<tr><td class="Col1">DENY APPLICATION</td>
+<td class="Value">Male</td>
+<td class="Value">Younger than 25 or Older than 35</td>
+<td class="Value">Within 20-25 BMI</td>
+<td class="Value">Moderate to heavy smoker</td>
+<td class="Value">Moderate to heavy drinker</td>
+<td class="Value">None apply</td>
+<td class="Value">Convicted & charged with felony</td>
+</tr>
+<tr><td class="Col1">Standard Premium + 50% = $1500</td>
+<td class="Value">Male</td>
+<td class="Value">Younger than 25 or Older than 35</td>
+<td class="Value">Within 20-25 BMI</td>
+<td class="Value">Moderate to heavy smoker</td>
+<td class="Value">Moderate to heavy drinker</td>
+<td class="Value">None apply</td>
+<td class="Value">No recorded criminal history</td>
+</tr>
+<tr><td class="Col1">DENY APPLICATION</td>
+<td class="Value">Male</td>
+<td class="Value">Younger than 25 or Older than 35</td>
+<td class="Value">Within 20-25 BMI</td>
+<td class="Value">Moderate to heavy smoker</td>
+<td class="Value">Occasional to non-drinker</td>
+<td class="Value">More than 1 applies</td>
+<td class="Value">Convicted & charged with felony</td>
+</tr>
+<tr><td class="Col1">Standard Premium + 60% = $1600</td>
+<td class="Value">Male</td>
+<td class="Value">Younger than 25 or Older than 35</td>
+<td class="Value">Within 20-25 BMI</td>
+<td class="Value">Moderate to heavy smoker</td>
+<td class="Value">Occasional to non-drinker</td>
+<td class="Value">More than 1 applies</td>
+<td class="Value">No recorded criminal history</td>
+</tr>
+<tr><td class="Col1">DENY APPLICATION</td>
+<td class="Value">Male</td>
+<td class="Value">Younger than 25 or Older than 35</td>
+<td class="Value">Within 20-25 BMI</td>
+<td class="Value">Moderate to heavy smoker</td>
+<td class="Value">Occasional to non-drinker</td>
+<td class="Value">None apply</td>
+<td class="Value">Convicted & charged with felony</td>
+</tr>
+<tr><td class="Col1">Standard Premium + 50% = $1500</td>
+<td class="Value">Male</td>
+<td class="Value">Younger than 25 or Older than 35</td>
+<td class="Value">Within 20-25 BMI</td>
+<td class="Value">Moderate to heavy smoker</td>
+<td class="Value">Occasional to non-drinker</td>
+<td class="Value">None apply</td>
+<td class="Value">No recorded criminal history</td>
+</tr>
+<tr><td class="Col1">DENY APPLICATION</td>
+<td class="Value">Male</td>
+<td class="Value">Younger than 25 or Older than 35</td>
+<td class="Value">Within 20-25 BMI</td>
+<td class="Value">Occasional or non-smoker</td>
+<td class="Value">Moderate to heavy drinker</td>
+<td class="Value">More than 1 applies</td>
+<td class="Value">Convicted & charged with felony</td>
+</tr>
+<tr><td class="Col1">Standard Premium + 40% = $1400</td>
+<td class="Value">Male</td>
+<td class="Value">Younger than 25 or Older than 35</td>
+<td class="Value">Within 20-25 BMI</td>
+<td class="Value">Occasional or non-smoker</td>
+<td class="Value">Moderate to heavy drinker</td>
+<td class="Value">More than 1 applies</td>
+<td class="Value">No recorded criminal history</td>
+</tr>
+<tr><td class="Col1">DENY APPLICATION</td>
+<td class="Value">Male</td>
+<td class="Value">Younger than 25 or Older than 35</td>
+<td class="Value">Within 20-25 BMI</td>
+<td class="Value">Occasional or non-smoker</td>
+<td class="Value">Moderate to heavy drinker</td>
+<td class="Value">None apply</td>
+<td class="Value">Convicted & charged with felony</td>
+</tr>
+<tr><td class="Col1">Standard Premium + 20% = $1200</td>
+<td class="Value">Male</td>
+<td class="Value">Younger than 25 or Older than 35</td>
+<td class="Value">Within 20-25 BMI</td>
+<td class="Value">Occasional or non-smoker</td>
+<td class="Value">Moderate to heavy drinker</td>
+<td class="Value">None apply</td>
+<td class="Value">No recorded criminal history</td>
+</tr>
+<tr><td class="Col1">DENY APPLICATION</td>
+<td class="Value">Male</td>
+<td class="Value">Younger than 25 or Older than 35</td>
+<td class="Value">Within 20-25 BMI</td>
+<td class="Value">Occasional or non-smoker</td>
+<td class="Value">Occasional to non-drinker</td>
+<td class="Value">More than 1 applies</td>
+<td class="Value">Convicted & charged with felony</td>
+</tr>
+<tr><td class="Col1">Standard Premium + 50% = $1500</td>
+<td class="Value">Male</td>
+<td class="Value">Younger than 25 or Older than 35</td>
+<td class="Value">Within 20-25 BMI</td>
+<td class="Value">Occasional or non-smoker</td>
+<td class="Value">Occasional to non-drinker</td>
+<td class="Value">More than 1 applies</td>
+<td class="Value">No recorded criminal history</td>
+</tr>
+<tr><td class="Col1">DENY APPLICATION</td>
+<td class="Value">Male</td>
+<td class="Value">Younger than 25 or Older than 35</td>
+<td class="Value">Within 20-25 BMI</td>
+<td class="Value">Occasional or non-smoker</td>
+<td class="Value">Occasional to non-drinker</td>
+<td class="Value">None apply</td>
+<td class="Value">Convicted & charged with felony</td>
+</tr>
+<tr><td class="Col1">Standard Premium + 10% = $1100</td>
+<td class="Value">Male</td>
+<td class="Value">Younger than 25 or Older than 35</td>
+<td class="Value">Within 20-25 BMI</td>
+<td class="Value">Occasional or non-smoker</td>
+<td class="Value">Occasional to non-drinker</td>
+<td class="Value">None apply</td>
+<td class="Value">No recorded criminal history</td>
+</tr>
+<tr><td class="Col1">DENY APPLICATION</td>
+<td class="Value">Male</td>
+<td class="Value">Age is within the range 25-35</td>
+<td class="Value">Below 20 or Above 25 BMI</td>
+<td class="Value">Moderate to heavy smoker</td>
+<td class="Value">Moderate to heavy drinker</td>
+<td class="Value">More than 1 applies</td>
+<td class="Value">Convicted & charged with felony</td>
+</tr>
+<tr><td class="Col1">Standard Premium + 85% = $1850</td>
+<td class="Value">Male</td>
+<td class="Value">Age is within the range 25-35</td>
+<td class="Value">Below 20 or Above 25 BMI</td>
+<td class="Value">Moderate to heavy smoker</td>
+<td class="Value">Moderate to heavy drinker</td>
+<td class="Value">More than 1 applies</td>
+<td class="Value">No recorded criminal history</td>
+</tr>
+<tr><td class="Col1">DENY APPLICATION</td>
+<td class="Value">Male</td>
+<td class="Value">Age is within the range 25-35</td>
+<td class="Value">Below 20 or Above 25 BMI</td>
+<td class="Value">Moderate to heavy smoker</td>
+<td class="Value">Moderate to heavy drinker</td>
+<td class="Value">None apply</td>
+<td class="Value">Convicted & charged with felony</td>
+</tr>
+<tr><td class="Col1">Standard Premium + 55% = $1550</td>
+<td class="Value">Male</td>
+<td class="Value">Age is within the range 25-35</td>
+<td class="Value">Below 20 or Above 25 BMI</td>
+<td class="Value">Moderate to heavy smoker</td>
+<td class="Value">Moderate to heavy drinker</td>
+<td class="Value">None apply</td>
+<td class="Value">No recorded criminal history</td>
+</tr>
+<tr><td class="Col1">DENY APPLICATION</td>
+<td class="Value">Male</td>
+<td class="Value">Age is within the range 25-35</td>
+<td class="Value">Below 20 or Above 25 BMI</td>
+<td class="Value">Moderate to heavy smoker</td>
+<td class="Value">Occasional to non-drinker</td>
+<td class="Value">More than 1 applies</td>
+<td class="Value">Convicted & charged with felony</td>
+</tr>
+<tr><td class="Col1">Standard Premium + 75% = $1750</td>
+<td class="Value">Male</td>
+<td class="Value">Age is within the range 25-35</td>
+<td class="Value">Below 20 or Above 25 BMI</td>
+<td class="Value">Moderate to heavy smoker</td>
+<td class="Value">Occasional to non-drinker</td>
+<td class="Value">More than 1 applies</td>
+<td class="Value">No recorded criminal history</td>
+</tr>
+<tr><td class="Col1">DENY APPLICATION</td>
+<td class="Value">Male</td>
+<td class="Value">Age is within the range 25-35</td>
+<td class="Value">Below 20 or Above 25 BMI</td>
+<td class="Value">Moderate to heavy smoker</td>
+<td class="Value">Occasional to non-drinker</td>
+<td class="Value">None apply</td>
+<td class="Value">Convicted & charged with felony</td>
+</tr>
+<tr><td class="Col1">Standard Premium + 45% = $1450</td>
+<td class="Value">Male</td>
+<td class="Value">Age is within the range 25-35</td>
+<td class="Value">Below 20 or Above 25 BMI</td>
+<td class="Value">Moderate to heavy smoker</td>
+<td class="Value">Occasional to non-drinker</td>
+<td class="Value">None apply</td>
+<td class="Value">No recorded criminal history</td>
+</tr>
+<tr><td class="Col1">DENY APPLICATION</td>
+<td class="Value">Male</td>
+<td class="Value">Age is within the range 25-35</td>
+<td class="Value">Below 20 or Above 25 BMI</td>
+<td class="Value">Occasional or non-smoker</td>
+<td class="Value">Moderate to heavy drinker</td>
+<td class="Value">More than 1 applies</td>
+<td class="Value">Convicted & charged with felony</td>
+</tr>
+<tr><td class="Col1">Standard Premium + 65% = $1650</td>
+<td class="Value">Male</td>
+<td class="Value">Age is within the range 25-35</td>
+<td class="Value">Below 20 or Above 25 BMI</td>
+<td class="Value">Occasional or non-smoker</td>
+<td class="Value">Moderate to heavy drinker</td>
+<td class="Value">More than 1 applies</td>
+<td class="Value">No recorded criminal history</td>
+</tr>
+<tr><td class="Col1">DENY APPLICATION</td>
+<td class="Value">Male</td>
+<td class="Value">Age is within the range 25-35</td>
+<td class="Value">Below 20 or Above 25 BMI</td>
+<td class="Value">Occasional or non-smoker</td>
+<td class="Value">Moderate to heavy drinker</td>
+<td class="Value">None apply</td>
+<td class="Value">Convicted & charged with felony</td>
+</tr>
+<tr><td class="Col1">Standard Premium + 35% = $1350</td>
+<td class="Value">Male</td>
+<td class="Value">Age is within the range 25-35</td>
+<td class="Value">Below 20 or Above 25 BMI</td>
+<td class="Value">Occasional or non-smoker</td>
+<td class="Value">Moderate to heavy drinker</td>
+<td class="Value">None apply</td>
+<td class="Value">No recorded criminal history</td>
+</tr>
+<tr><td class="Col1">DENY APPLICATION</td>
+<td class="Value">Male</td>
+<td class="Value">Age is within the range 25-35</td>
+<td class="Value">Below 20 or Above 25 BMI</td>
+<td class="Value">Occasional or non-smoker</td>
+<td class="Value">Occasional to non-drinker</td>
+<td class="Value">More than 1 applies</td>
+<td class="Value">Convicted & charged with felony</td>
+</tr>
+<tr><td class="Col1">Standard Premium + 55% = $1550</td>
+<td class="Value">Male</td>
+<td class="Value">Age is within the range 25-35</td>
+<td class="Value">Below 20 or Above 25 BMI</td>
+<td class="Value">Occasional or non-smoker</td>
+<td class="Value">Occasional to non-drinker</td>
+<td class="Value">More than 1 applies</td>
+<td class="Value">No recorded criminal history</td>
+</tr>
+<tr><td class="Col1">DENY APPLICATION</td>
+<td class="Value">Male</td>
+<td class="Value">Age is within the range 25-35</td>
+<td class="Value">Below 20 or Above 25 BMI</td>
+<td class="Value">Occasional or non-smoker</td>
+<td class="Value">Occasional to non-drinker</td>
+<td class="Value">None apply</td>
+<td class="Value">Convicted & charged with felony</td>
+</tr>
+<tr><td class="Col1">Standard Premium + 25% = $1250</td>
+<td class="Value">Male</td>
+<td class="Value">Age is within the range 25-35</td>
+<td class="Value">Below 20 or Above 25 BMI</td>
+<td class="Value">Occasional or non-smoker</td>
+<td class="Value">Occasional to non-drinker</td>
+<td class="Value">None apply</td>
+<td class="Value">No recorded criminal history</td>
+</tr>
+<tr><td class="Col1">DENY APPLICATION</td>
+<td class="Value">Male</td>
+<td class="Value">Age is within the range 25-35</td>
+<td class="Value">Within 20-25 BMI</td>
+<td class="Value">Moderate to heavy smoker</td>
+<td class="Value">Moderate to heavy drinker</td>
+<td class="Value">More than 1 applies</td>
+<td class="Value">Convicted & charged with felony</td>
+</tr>
+<tr><td class="Col1">Standard Premium + 65% = $1650</td>
+<td class="Value">Male</td>
+<td class="Value">Age is within the range 25-35</td>
+<td class="Value">Within 20-25 BMI</td>
+<td class="Value">Moderate to heavy smoker</td>
+<td class="Value">Moderate to heavy drinker</td>
+<td class="Value">More than 1 applies</td>
+<td class="Value">No recorded criminal history</td>
+</tr>
+<tr><td class="Col1">DENY APPLICATION</td>
+<td class="Value">Male</td>
+<td class="Value">Age is within the range 25-35</td>
+<td class="Value">Within 20-25 BMI</td>
+<td class="Value">Moderate to heavy smoker</td>
+<td class="Value">Moderate to heavy drinker</td>
+<td class="Value">None apply</td>
+<td class="Value">Convicted & charged with felony</td>
+</tr>
+<tr><td class="Col1">Standard Premium + 35% = $1350</td>
+<td class="Value">Male</td>
+<td class="Value">Age is within the range 25-35</td>
+<td class="Value">Within 20-25 BMI</td>
+<td class="Value">Moderate to heavy smoker</td>
+<td class="Value">Moderate to heavy drinker</td>
+<td class="Value">None apply</td>
+<td class="Value">No recorded criminal history</td>
+</tr>
+<tr><td class="Col1">DENY APPLICATION</td>
+<td class="Value">Male</td>
+<td class="Value">Age is within the range 25-35</td>
+<td class="Value">Within 20-25 BMI</td>
+<td class="Value">Moderate to heavy smoker</td>
+<td class="Value">Occasional to non-drinker</td>
+<td class="Value">More than 1 applies</td>
+<td class="Value">Convicted & charged with felony</td>
+</tr>
+<tr><td class="Col1">Standard Premium + 55% = $1550</td>
+<td class="Value">Male</td>
+<td class="Value">Age is within the range 25-35</td>
+<td class="Value">Within 20-25 BMI</td>
+<td class="Value">Moderate to heavy smoker</td>
+<td class="Value">Occasional to non-drinker</td>
+<td class="Value">More than 1 applies</td>
+<td class="Value">No recorded criminal history</td>
+</tr>
+<tr><td class="Col1">DENY APPLICATION</td>
+<td class="Value">Male</td>
+<td class="Value">Age is within the range 25-35</td>
+<td class="Value">Within 20-25 BMI</td>
+<td class="Value">Moderate to heavy smoker</td>
+<td class="Value">Occasional to non-drinker</td>
+<td class="Value">None apply</td>
+<td class="Value">Convicted & charged with felony</td>
+</tr>
+<tr><td class="Col1">Standard Premium + 25% = $1250</td>
+<td class="Value">Male</td>
+<td class="Value">Age is within the range 25-35</td>
+<td class="Value">Within 20-25 BMI</td>
+<td class="Value">Moderate to heavy smoker</td>
+<td class="Value">Occasional to non-drinker</td>
+<td class="Value">None apply</td>
+<td class="Value">No recorded criminal history</td>
+</tr>
+<tr><td class="Col1">DENY APPLICATION</td>
+<td class="Value">Male</td>
+<td class="Value">Age is within the range 25-35</td>
+<td class="Value">Within 20-25 BMI</td>
+<td class="Value">Occasional or non-smoker</td>
+<td class="Value">Moderate to heavy drinker</td>
+<td class="Value">More than 1 applies</td>
+<td class="Value">Convicted & charged with felony</td>
+</tr>
+<tr><td class="Col1">Standard Premium + 45% = $1450</td>
+<td class="Value">Male</td>
+<td class="Value">Age is within the range 25-35</td>
+<td class="Value">Within 20-25 BMI</td>
+<td class="Value">Occasional or non-smoker</td>
+<td class="Value">Moderate to heavy drinker</td>
+<td class="Value">More than 1 applies</td>
+<td class="Value">No recorded criminal history</td>
+</tr>
+<tr><td class="Col1">DENY APPLICATION</td>
+<td class="Value">Male</td>
+<td class="Value">Age is within the range 25-35</td>
+<td class="Value">Within 20-25 BMI</td>
+<td class="Value">Occasional or non-smoker</td>
+<td class="Value">Moderate to heavy drinker</td>
+<td class="Value">None apply</td>
+<td class="Value">Convicted & charged with felony</td>
+</tr>
+<tr><td class="Col1">Standard Premium + 15% = $1050</td>
+<td class="Value">Male</td>
+<td class="Value">Age is within the range 25-35</td>
+<td class="Value">Within 20-25 BMI</td>
+<td class="Value">Occasional or non-smoker</td>
+<td class="Value">Moderate to heavy drinker</td>
+<td class="Value">None apply</td>
+<td class="Value">No recorded criminal history</td>
+</tr>
+<tr><td class="Col1">DENY APPLICATION</td>
+<td class="Value">Male</td>
+<td class="Value">Age is within the range 25-35</td>
+<td class="Value">Within 20-25 BMI</td>
+<td class="Value">Occasional or non-smoker</td>
+<td class="Value">Occasional to non-drinker</td>
+<td class="Value">More than 1 applies</td>
+<td class="Value">Convicted & charged with felony</td>
+</tr>
+<tr><td class="Col1">Standard Premium + 35% = $1350</td>
+<td class="Value">Male</td>
+<td class="Value">Age is within the range 25-35</td>
+<td class="Value">Within 20-25 BMI</td>
+<td class="Value">Occasional or non-smoker</td>
+<td class="Value">Occasional to non-drinker</td>
+<td class="Value">More than 1 applies</td>
+<td class="Value">No recorded criminal history</td>
+</tr>
+<tr><td class="Col1">DENY APPLICATION</td>
+<td class="Value">Male</td>
+<td class="Value">Age is within the range 25-35</td>
+<td class="Value">Within 20-25 BMI</td>
+<td class="Value">Occasional or non-smoker</td>
+<td class="Value">Occasional to non-drinker</td>
+<td class="Value">None apply</td>
+<td class="Value">Convicted & charged with felony</td>
+</tr>
+<tr><td class="Col1">Standard Premium + 5% = $1050</td>
+<td class="Value">Male</td>
+<td class="Value">Age is within the range 25-35</td>
+<td class="Value">Within 20-25 BMI</td>
+<td class="Value">Occasional or non-smoker</td>
+<td class="Value">Occasional to non-drinker</td>
+<td class="Value">None apply</td>
+<td class="Value">No recorded criminal history</td>
+</tr>
+<tr><td class="Col1">Expert System for Females have not been implemented yet.</td>
+<td class="Value">Female</td>
+<td class="na">na</td>
+<td class="na">na</td>
+<td class="na">na</td>
+<td class="na">na</td>
+<td class="na">na</td>
+<td class="na">na</td>
+</tr>
+</table>
+<table class="Footer"><tr><td class="Footer" colspan="9">&nbsp;</td></tr><tr><td class="Menu"><a class="menu" href="../index.html">Title Page</a></td><td class="Menu"><a class="menu" href="att0.html">Search</a></td><td class="Menu"><a class="menu" href="rules.html">Knowledge Base</a></td><td class="Menu"><a class="menu" href="decisiontree.html">Decision Tree</a></td><td class="Menu"><a class="menu" href="decisiontable.html">Decision Table</a></td><td class="Menu"><a class="menu" href="attributes.html">Attributes List</a></td><td class="Menu"><a class="menu" href="documentation.html">Documentation</a></td></tr><tr><td class="Footer" colspan="9">This Expert System Web created with ES-Builder 3.0 Expert System Shell.<br /> &#169;2009 <a class="menu" href="http://www.mcgoo.com.au">McGoo Software.</a></td></tr></table></body></html>
